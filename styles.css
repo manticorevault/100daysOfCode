@@ -1,0 +1,40 @@
+/* GENERIC STYLES */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    color: midnightblue;
+    line-height: 150%;
+    font-size: 1.125em;
+  }
+  
+  h4 {
+    color: steelblue;
+    text-transform: uppercase;
+  }
+  
+  button {
+    font: inherit;
+    background-color: midnightblue;
+    color: white;
+    border: 0;
+    padding: 1em;
+  }
+  
+  img {
+    max-width: 16em;
+    margin-right: 4em;
+    box-shadow: 400px;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    max-width: 64em;
+    min-height: 95vh;
+    margin: 0 auto;
+  }
+  
